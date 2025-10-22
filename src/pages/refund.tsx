@@ -78,7 +78,7 @@ export function Refund() {
 
       {params.id ? (
         <a
-          href="https://www.rocketseat.com.br/"
+          href="https://www.youtube.com.br/"
           target="_blank"
           className="text-sm text-green-100 font-semibold flex items-center justify-center gap-2 my-6 hover:opacity-70 transition ease-linear"
         >
