@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <>
-      <div className="bg-gray">Teste</div>
-    </>
-  );
-}
+import { Routes } from "./routes";
 
-export default App;
+export function App() {
+  return <Routes /> 
+}
