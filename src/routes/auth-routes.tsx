@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router";
-
 import { AuthLayout } from "../components/auth-layout";
 import { SignIn } from "../pages/sign-in";
 import { SignUp } from "../pages/sign-up";
+
+
 
 export function AuthRoutes() {
   return (
@@ -11,6 +12,7 @@ export function AuthRoutes() {
         <Route path="/" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
       </Route>
+
     </Routes>
   );
 }
